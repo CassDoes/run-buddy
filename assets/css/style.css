@@ -103,6 +103,13 @@ section {
 /* flexbox style*/
 .flex-row {
   display: flex;
+  flex-wrap: wrap;
+  flex-basis: auto;
+  justify-content: space-around;
+}
+
+#first-project a {
+align-self: center;
 }
 
 
